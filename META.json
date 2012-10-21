@@ -1,0 +1,52 @@
+{
+   "abstract" : "Simple and Sane Command Line Argument processing",
+   "author" : [
+      "Chad Granum <exodist7@gmail.com>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.3901, CPAN::Meta::Converter version 2.120630",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Declare-Args",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Fennec" : "1.012"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.39"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Exporter::Declare" : "0.105"
+         }
+      }
+   },
+   "provides" : {
+      "Declare::Args" : {
+         "file" : "lib/Declare/Args.pm",
+         "version" : "0.001"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://github.com/exodist/Declare-Args/issues"
+      },
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "url" : "http://github.com/exodist/Declare-Args"
+      }
+   },
+   "version" : "0.001"
+}
